@@ -10,14 +10,8 @@ if( argv.length<4 ) {
 }
 
 function cal_speed(dist_str, time_str) {
-	var cl_num=time_str.split(':').length-1;
-	if(cl_num<1) {
-		time_str='00:00:'+time_str;
-	} else if(cl_num<2) {
-		time_str='00:'+time_str;
-	}
 	var dist_reg=/^(\d+(?:\.\d+)?)$/
-		, time_reg= /^(?:(2[0-3]|[0-1][0-9]):)?(?:([0-5][0-9]):)?([0-5][0-9](?:\.[0-9]+)?)$/
+		, time_reg=/^(?:(?:(2[0-3]|[0-1]?[0-9])[:.])?([0-5]?[0-9])[:.])?([0-5]?[0-9](?:\.[0-9]+)?)$/
 		, dist_res=dist_reg.exec( dist_str )
 		, time_res=time_reg.exec( time_str )
 
