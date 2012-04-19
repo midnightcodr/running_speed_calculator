@@ -11,7 +11,7 @@ if( argv.length<4 ) {
 
 function cal_speed(dist_str, time_str) {
 	var dist_reg=/^(\d+(?:\.\d+)?)$/
-		, time_reg=/^(?:(?:(2[0-3]|[0-1]?[0-9])[:.])?([0-5]?[0-9])[:.])?([0-5]?[0-9](?:\.[0-9]+)?)$/
+		, time_reg=/^(?:(?:(2[0-3]|[0-1]?[0-9])[:])?([0-5]?[0-9])[:])?([0-5]?[0-9](?:\.[0-9]+)?)$/
 		, dist_res=dist_reg.exec( dist_str )
 		, time_res=time_reg.exec( time_str )
 

@@ -17,5 +17,8 @@ I have a Garmin Forerunner 410 GPS watch and I love it. But I found one thing qu
 	node c.js 26 2:09:13
 	Average Speed: 12.073
 
+	node c.js 2.01 16:26.27
+	Average Speed: 7.337
+
 ## update [4/11/2012]
 	modified the time stamp regular expression, credit goes to http://stackoverflow.com/questions/1400297/matching-hours-minutes-seconds-in-regular-expressions-a-better-way
