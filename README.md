@@ -22,3 +22,6 @@ I have a Garmin Forerunner 410 GPS watch and I love it. But I found one thing qu
 
 ## update [4/11/2012]
 	modified the time stamp regular expression, credit goes to http://stackoverflow.com/questions/1400297/matching-hours-minutes-seconds-in-regular-expressions-a-better-way
+
+## update [4/26/2012]
+	Live site using this: http://falling-planet-1737.herokuapp.com/
